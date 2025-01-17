@@ -1,0 +1,21 @@
+Stations with the Largest Temperature Range per Year:
+Year 1986: WAGGA-WAGGA-AMO with range 20.80°C
+Year 1987: MARREE with range 19.96°C
+Year 1988: WAGGA-WAGGA-AMO with range 20.06°C
+Year 1989: WYALONG-POST-OFFICE with range 20.44°C
+Year 1990: MARREE with range 20.02°C
+Year 1991: WYALONG-POST-OFFICE with range 20.66°C
+Year 1992: TIBOOBURRA-POST-OFFICE with range 20.13°C
+Year 1993: WAGGA-WAGGA-AMO with range 20.41°C
+Year 1994: MARREE with range 20.67°C
+Year 1995: RUTHERGLEN-RESEARCH with range 20.27°C
+Year 1996: OODNADATTA-AIRPORT with range 20.57°C
+Year 1997: WYALONG-POST-OFFICE with range 19.77°C
+Year 1998: WYALONG-POST-OFFICE with range 20.15°C
+Year 1999: WYALONG-POST-OFFICE with range 20.62°C
+Year 2000: WAGGA-WAGGA-AMO with range 21.07°C
+Year 2001: WAGGA-WAGGA-AMO with range 19.57°C
+Year 2002: TIBOOBURRA-POST-OFFICE with range 20.34°C
+Year 2003: BOURKE-AIRPORT-AWS with range 20.29°C
+Year 2004: TIBOOBURRA-POST-OFFICE with range 20.59°C
+Year 2005: WYALONG-POST-OFFICE with range 20.58°C
