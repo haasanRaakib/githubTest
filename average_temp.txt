@@ -1,12 +1,19 @@
-Month 1: 32.73째C
-Month 2: 32.12째C
-Month 3: 30.42째C
-Month 4: 27.57째C
-Month 5: 23.97째C
-Month 6: 21.03째C
-Month 7: 20.36째C
-Month 8: 21.81째C
-Month 9: 24.91째C
-Month 10: 27.58째C
-Month 11: 29.82째C
-Month 12: 31.47째C
+Monthly Averages:
+Month 1: 32.73캜
+Month 2: 32.12캜
+Month 3: 30.42캜
+Month 4: 27.57캜
+Month 5: 23.97캜
+Month 6: 21.03캜
+Month 7: 20.36캜
+Month 8: 21.81캜
+Month 9: 24.91캜
+Month 10: 27.58캜
+Month 11: 29.82캜
+Month 12: 31.47캜
+
+Seasonal Averages:
+Summer: 32.10캜
+Autumn: 27.32캜
+Winter: 21.07캜
+Spring: 27.43캜
