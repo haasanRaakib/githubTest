@@ -1,2 +1,2 @@
 Stations with the Largest Temperature Range:
-WAGGA-WAGGA-AMO: 21.07°C
+WAGGA-WAGGA-AMO: 21.07ï¿½C
