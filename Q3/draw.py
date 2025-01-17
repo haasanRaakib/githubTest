@@ -3,7 +3,6 @@ import turtle
 def draw_branch(t, length, width, level):
     if level > 4:  # Stop after 4 levels of branching
         return
-    
     # Make branches thinner as they go up
     t.pensize(width)
     
@@ -40,6 +39,7 @@ screen.bgcolor("white")
 t = turtle.Turtle()
 t.speed(0)  # Fastest speed
 t.left(90)  # Point upward
+
 
 # Start position
 t.penup()
