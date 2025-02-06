@@ -1,0 +1,121 @@
+Yearly Seasonal Averages:
+
+Year: 1986
+  Summer: 31.99°C
+  Autumn: 27.23°C
+  Winter: 21.00°C
+  Spring: 27.31°C
+
+Year: 1987
+  Summer: 32.02°C
+  Autumn: 27.23°C
+  Winter: 21.00°C
+  Spring: 27.33°C
+
+Year: 1988
+  Summer: 32.11°C
+  Autumn: 27.34°C
+  Winter: 21.06°C
+  Spring: 27.43°C
+
+Year: 1989
+  Summer: 32.20°C
+  Autumn: 27.49°C
+  Winter: 21.12°C
+  Spring: 27.52°C
+
+Year: 1990
+  Summer: 31.99°C
+  Autumn: 27.19°C
+  Winter: 20.99°C
+  Spring: 27.28°C
+
+Year: 1991
+  Summer: 32.15°C
+  Autumn: 27.38°C
+  Winter: 21.08°C
+  Spring: 27.43°C
+
+Year: 1992
+  Summer: 32.21°C
+  Autumn: 27.42°C
+  Winter: 21.10°C
+  Spring: 27.55°C
+
+Year: 1993
+  Summer: 32.07°C
+  Autumn: 27.25°C
+  Winter: 21.03°C
+  Spring: 27.41°C
+
+Year: 1994
+  Summer: 32.16°C
+  Autumn: 27.36°C
+  Winter: 21.08°C
+  Spring: 27.51°C
+
+Year: 1995
+  Summer: 31.90°C
+  Autumn: 27.09°C
+  Winter: 20.88°C
+  Spring: 27.20°C
+
+Year: 1996
+  Summer: 32.19°C
+  Autumn: 27.41°C
+  Winter: 21.16°C
+  Spring: 27.49°C
+
+Year: 1997
+  Summer: 32.34°C
+  Autumn: 27.55°C
+  Winter: 21.24°C
+  Spring: 27.64°C
+
+Year: 1998
+  Summer: 31.84°C
+  Autumn: 27.03°C
+  Winter: 20.83°C
+  Spring: 27.15°C
+
+Year: 1999
+  Summer: 32.11°C
+  Autumn: 27.32°C
+  Winter: 21.08°C
+  Spring: 27.40°C
+
+Year: 2000
+  Summer: 32.15°C
+  Autumn: 27.39°C
+  Winter: 21.14°C
+  Spring: 27.53°C
+
+Year: 2001
+  Summer: 32.12°C
+  Autumn: 27.35°C
+  Winter: 21.13°C
+  Spring: 27.50°C
+
+Year: 2002
+  Summer: 32.27°C
+  Autumn: 27.48°C
+  Winter: 21.21°C
+  Spring: 27.63°C
+
+Year: 2003
+  Summer: 32.04°C
+  Autumn: 27.25°C
+  Winter: 20.97°C
+  Spring: 27.35°C
+
+Year: 2004
+  Summer: 32.07°C
+  Autumn: 27.29°C
+  Winter: 21.10°C
+  Spring: 27.45°C
+
+Year: 2005
+  Summer: 32.14°C
+  Autumn: 27.36°C
+  Winter: 21.15°C
+  Spring: 27.53°C

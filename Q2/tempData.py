@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Path to the folder containing the CSV files
-folder_path = "D:/IDM/temperature_data"  # Ensure this points to your folder
+folder_path = r"C:\Users\Asus\OneDrive\Desktop\New folder (2)\githubTest\Q2\temperature_data"  # Ensure this points to your folder
 
 # Initialize data structures
 yearly_results = {}
@@ -92,19 +92,19 @@ warmest_stations = [station for station, avg_temp in station_avg_temps.items() i
 coolest_stations = [station for station, avg_temp in station_avg_temps.items() if avg_temp == coolest_temp]
 
 # Save results
-with open("D:/IDM/average_temp.txt", "w") as f:
+with open(r"C:\Users\Asus\OneDrive\Desktop\New folder (2)\githubTest\average_temp.txt", "w") as f:
     f.write("Yearly Seasonal Averages:\n")
     for year, seasons in yearly_seasonal_averages.items():
         f.write(f"\nYear: {year}\n")
         for season, avg_temp in seasons.items():
             f.write(f"  {season}: {avg_temp:.2f}°C\n" if avg_temp is not None else f"  {season}: No Data\n")
 
-with open("D:/IDM/largest_temp_range_station.txt", "w") as f:
+with open(r"C:\Users\Asus\OneDrive\Desktop\New folder (2)\githubTest\largest_temp_range_station.txt", "w") as f:
     f.write("Stations with the Largest Temperature Range per Year:\n")
     for year, (station, temp_range) in largest_temp_range_by_year.items():
         f.write(f"Year {year}: {station} with range {temp_range:.2f}°C\n")
 
-with open("D:/IDM/warmest_and_coolest_station.txt", "w") as f:
+with open(r"C:\Users\Asus\OneDrive\Desktop\New folder (2)\githubTest\warmest_and_coolest_station.txt", "w") as f:
     f.write("Warmest Stations:\n")
     for station in warmest_stations:
         f.write(f"{station}: {warmest_temp:.2f}°C\n")
