@@ -199,7 +199,6 @@ class ImageEditorApp:
             messagebox.showinfo("Success", "Image saved successfully!")
 
 
-
 if __name__ == "__main__":
     root = tk.Tk()
     app = ImageEditorApp(root)
