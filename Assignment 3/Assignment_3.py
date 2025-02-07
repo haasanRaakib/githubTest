@@ -131,14 +131,17 @@ class ImageEditorApp:
         if self.image is not None and self.start_x != self.end_x and self.start_y != self.end_y:
             x1, x2 = sorted([self.start_x, self.end_x])
             y1, y2 = sorted([self.start_y, self.end_y])
-            canvas_width, canvas_height = 500, 400
+            canvas_width = self.tk_image.width()  # Get actual displayed width
+            canvas_height = self.tk_image.height()  # Get actual displayed height
             image_height, image_width = self.image.shape[:2]
+            
             x_ratio = image_width / canvas_width
             y_ratio = image_height / canvas_height
+
             x1, x2 = int(x1 * x_ratio), int(x2 * x_ratio)
             y1, y2 = int(y1 * y_ratio), int(y2 * y_ratio)
             if x2 - x1 > 5 and y2 - y1 > 5:
-                self.history.append(self.image.copy())  # Add the image to history before cropping
+                self.history.append(self.image.copy())
                 self.future.clear()  # Clear the redo stack on new modification
                 self.cropped_image = self.image[y1:y2, x1:x2]
                 self.display_image()
@@ -153,17 +156,17 @@ class ImageEditorApp:
     def undo(self):
         # Undo functionality here
         if len(self.history) > 1:
-            self.future.append(self.history.pop())  # Push the current image to future
-            self.image = self.history[-1].copy()  # Get the previous image from history
-            self.cropped_image = None  # Reset cropped image on undo
+            self.future.append(self.history.pop()) 
+            self.image = self.history[-1].copy()
+            self.cropped_image = None 
             self.display_image()
         else:
             messagebox.showinfo("Undo", "No more actions to undo!")
 
     def redo(self):
         if self.future:
-            self.history.append(self.future.pop())  # Push the image from future back to history
-            self.image = self.history[-1].copy()  # Get the image to redo
+            self.history.append(self.future.pop())
+            self.image = self.history[-1].copy()
             self.display_image()
         else:
             messagebox.showinfo("Redo", "No actions to redo!")

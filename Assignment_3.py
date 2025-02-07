@@ -131,10 +131,13 @@ class ImageEditorApp:
         if self.image is not None and self.start_x != self.end_x and self.start_y != self.end_y:
             x1, x2 = sorted([self.start_x, self.end_x])
             y1, y2 = sorted([self.start_y, self.end_y])
-            canvas_width, canvas_height = 500, 400
+            canvas_width = self.tk_image.width()  # Get actual displayed width
+            canvas_height = self.tk_image.height()  # Get actual displayed height
             image_height, image_width = self.image.shape[:2]
+            
             x_ratio = image_width / canvas_width
             y_ratio = image_height / canvas_height
+
             x1, x2 = int(x1 * x_ratio), int(x2 * x_ratio)
             y1, y2 = int(y1 * y_ratio), int(y2 * y_ratio)
             if x2 - x1 > 5 and y2 - y1 > 5:
